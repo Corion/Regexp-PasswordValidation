@@ -5,12 +5,8 @@ Makefile.old
 *.swp
 pm_to_blib
 blib/
-WWW-Mechanize-Chrome-*
-WWW-Mechanize-Chrome-*/
+Regexp-PasswordValidation-*
+Regexp-PasswordValidation-*/
 .releaserc
 cover_db
-firefox-versions/
-chrome-versions/
 MYMETA.*
-frame-*.png
-*.pl

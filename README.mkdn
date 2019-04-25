@@ -1,0 +1,59 @@
+
+[![Travis Build Status](https://travis-ci.org/Corion/Regexp-PasswordValidation.svg?branch=master)](https://travis-ci.org/Corion/Regexp-PasswordValidation)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/Corion/Regexp-PasswordValidation?branch=master&svg=true)](https://ci.appveyor.com/project/Corion/Regexp-PasswordValidation)
+
+# NAME
+
+Regexp::PasswordValidation - generate password validation regexps
+
+# SYNOPSIS
+
+    use Regexp::PasswordValidation;
+    my $re = password_validation_regexp(
+        "a-z" => 1,
+        "0-9" => 1,
+        "A-Z" => 1,
+        '?!"$%&/()' => 2,
+        min_length => 8,
+        max_length => 20,
+    );
+    
+    my $new_password = <>;
+    if( $new_password !~ /$re/ ) {
+        print "Sorry, the new password does not satisfy the password strength criteria\n";
+    };
+
+# FUNCTIONS
+
+## `password_validation_regexp`
+
+    my $re = password_validation_regexp(
+        min_length   => 8,
+        max_length   => 20,
+        emoji        => 1,
+        alphanumeric => 1,
+
+        'A-Za-z0-9'  => 1,
+        '?!"$%&/()'  => 2,
+    );
+
+This function returns a regular expression that checks that a string matches
+the criteria given above.
+
+The string is expected to be UTF-8.
+
+The following names for predefined character classes are recognized:
+
+- **emoji**
+
+    Recognizes an emoji
+
+- **alphanumeric**
+
+    Recognizes a character in `A-Za-z0-9`
+
+- **punctuation**
+
+    Recognizes any Unicode punctuation character
+
+# SEE ALSO
