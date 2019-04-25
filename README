@@ -20,13 +20,34 @@ Should you wish to install this module manually, the procedure is
   make install
 
 
+REPOSITORY
+
+The public repository of this module is
+L<http://github.com/Corion/Regexp-PasswordValidation>.
+
+SUPPORT
+
+The public support forum of this module is
+L<https://perlmonks.org/>.
 
 
 
+BUG TRACKER
+
+Please report bugs in this module via the RT CPAN bug queue at
+L<https://rt.cpan.org/Public/Dist/Display.html?Name=Regexp-PasswordValidation>
+or via mail to L<regexp-passwordvalidation-Bugs@rt.cpan.org>.
 
 
 
-SEE ALSO
+AUTHOR
 
+Max Maischein C<corion@cpan.org>
 
+LICENSE
 
+This module is released under the same terms as Perl itself.
+
+COPYRIGHT (c)
+
+Copyright 2018-2019 by Max Maischein C<corion@cpan.org>.

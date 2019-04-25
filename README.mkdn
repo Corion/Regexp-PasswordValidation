@@ -56,4 +56,30 @@ The following names for predefined character classes are recognized:
 
     Recognizes any Unicode punctuation character
 
-# SEE ALSO
+# REPOSITORY
+
+The public repository of this module is
+[http://github.com/Corion/Regexp-PasswordValidation](http://github.com/Corion/Regexp-PasswordValidation).
+
+# SUPPORT
+
+The public support forum of this module is
+[https://perlmonks.org/](https://perlmonks.org/).
+
+# BUG TRACKER
+
+Please report bugs in this module via the RT CPAN bug queue at
+[https://rt.cpan.org/Public/Dist/Display.html?Name=Regexp-PasswordValidation](https://rt.cpan.org/Public/Dist/Display.html?Name=Regexp-PasswordValidation)
+or via mail to [regexp-passwordvalidation-Bugs@rt.cpan.org](https://metacpan.org/pod/regexp-passwordvalidation-Bugs@rt.cpan.org).
+
+# AUTHOR
+
+Max Maischein `corion@cpan.org`
+
+# COPYRIGHT (c)
+
+Copyright 2018-2019 by Max Maischein `corion@cpan.org`.
+
+# LICENSE
+
+This module is released under the same terms as Perl itself.
