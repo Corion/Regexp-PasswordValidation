@@ -8,7 +8,7 @@ our $VERSION = '0.01';
 
 =head1 NAME
 
-Regexp::PasswordValidation - generate password validation regexps
+Regexp::PasswordValidation - Generate password rule validation regexps
 
 =head1 SYNOPSIS
 

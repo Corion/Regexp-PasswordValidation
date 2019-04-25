@@ -1,5 +1,5 @@
 {
-   "abstract" : "generate password validation regexps",
+   "abstract" : "Generate password rule validation regexps",
    "author" : [
       "Max Maischein <corion@cpan.org>"
    ],
